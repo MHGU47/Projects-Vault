@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Projects-Vault/static/css/main.1926db77.css",
-    "main.js": "/Projects-Vault/static/js/main.c80dfe03.js",
+    "main.js": "/Projects-Vault/static/js/main.8eeb7542.js",
     "static/js/488.fbe535e1.chunk.js": "/Projects-Vault/static/js/488.fbe535e1.chunk.js",
     "static/media/PSO2_NGS_Banner_1.jpeg": "/Projects-Vault/static/media/PSO2_NGS_Banner_1.87351c75c2cc206a8a95.jpeg",
     "static/media/ngs_arks_logo.png": "/Projects-Vault/static/media/ngs_arks_logo.ac6fcaef5ccbd4f44b10.png",
@@ -9,11 +9,11 @@
     "static/media/menu.svg": "/Projects-Vault/static/media/menu.69c40d68fd38a325624fee8c84e0685d.svg",
     "static/media/circle-solid.svg": "/Projects-Vault/static/media/circle-solid.7ff39ca7e55859c787fa24e2b0c6fbb9.svg",
     "main.1926db77.css.map": "/Projects-Vault/static/css/main.1926db77.css.map",
-    "main.c80dfe03.js.map": "/Projects-Vault/static/js/main.c80dfe03.js.map",
+    "main.8eeb7542.js.map": "/Projects-Vault/static/js/main.8eeb7542.js.map",
     "488.fbe535e1.chunk.js.map": "/Projects-Vault/static/js/488.fbe535e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1926db77.css",
-    "static/js/main.c80dfe03.js"
+    "static/js/main.8eeb7542.js"
   ]
 }
