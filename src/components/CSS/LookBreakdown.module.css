@@ -1,3 +1,13 @@
+.title{
+  min-height: 7vh;
+  border-left: 2px solid var(--secondary-colour);
+  color: var(--accent-colour);
+  padding-left: 1vh;
+  vertical-align: center;
+  line-height: 7vh;
+  font-size: 30px;
+}
+
 .LooksbookContainer {
   /* background-color: var(--secondary-colour); */
   display: flex;

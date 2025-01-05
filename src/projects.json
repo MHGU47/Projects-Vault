@@ -1,0 +1,51 @@
+[
+  {
+    "Name": "Monster Hunter XX Damage Calculator",
+    "Description": "This was an app I worked on during college as a side project for the game 'Monster Hunter Generations' and 'Monster Hunter Generations Ultimate'. [ADD MORE]",
+    "Images": [
+      "placeholder",
+      "placeholder",
+      "placeholder",
+      "placeholder",
+      "placeholder"
+    ],
+    "Status": "Finished",
+    "HLink": "",
+    "Languages": [
+      "Java"
+    ]
+  },
+  {
+    "Name": "Monster Hunter Wilds Damage Calculator",
+    "Description": "This is an app that is currently in development for the upcoming game 'Monster Hunter Wilds'. It will serve the same purpose as the first one I made but will be available on both Android and web browsers due to it being developed with Flutter framework instead of Java [ADD MORE]",
+    "Images": [
+      "placeholder",
+      "placeholder",
+      "placeholder",
+      "placeholder",
+      "placeholder"
+    ],
+    "Status": "Under development",
+    "HLink": "",
+    "Languages": [
+      "Dart"
+    ]
+  },
+  {
+    "Name": "Digimon TCG Deckbuilder",
+    "Description": "This was an app I made for players at my local card shop to help keep track of their decks instead of having to keep everything written down on paper. The card information was *NOT* gathered manually, this was gathered using a webscrapper made in Python.",
+    "Images": [
+      "placeholder",
+      "placeholder",
+      "placeholder",
+      "placeholder",
+      "placeholder"
+    ],
+    "Status": "Finished",
+    "HLink": "",
+    "Languages": [
+      "Dart",
+      "Java? [DOUBLE CHECK THIS!]"
+    ]
+  }
+]

@@ -89,6 +89,19 @@ that display the looks.
 28/03/24
 -Added gitpages functionality
 
+03/01/25
+-Repurposed this to be the portfolio project. The previous stuff related to NGS will be renamed/removed
+ as necessary.
+-Hosted on GitHub so it can be viewed like an actual website
+
+05/01/25
+-Added 'projects.json'; this will be used to store the projects that will be displayed on the portfolio
+-Started restructuring 'Glampanel.jsx', this is so it pulls data from 'projects.json' and passes the
+ relevant information onto 'LookCard.jsx'.
+-Removed all commented out code. I have no idea what it was for previously but I doubt I'll be needing it now.
+ If I do need it, I can always grab it from the old project
+-Changed 'LookCard.jsx' constructor; this is now using information from 'projects.json'.
+
 #TODO#
 -Add align-text: center to everything instead of .App. This messes with the positioning of ::after tags.
  This can be fixed by fixing the positions to absolute and assigning a left/right but this might lead to

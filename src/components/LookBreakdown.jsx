@@ -4,32 +4,27 @@ import BreakdownPanel from './BreakdownPanel'
 import styles from './CSS/LookBreakdown.module.css'
 import SlideShow from './SlideShow';
 import {images} from '../constants'
+import projects from '../projects.json'
 
-function LookBreakdown() {
+function LookBreakdown({ info: {Name, Description, Images, Status, HLink, Languages}}) {
   return (
     <div className={styles.LooksbookContainer}>
-      <div style={{color: "white"}}>
-        Text
+      <div className={styles.title}>
+        {Name}
       </div>
       <div className={styles.imagesContainer}>
-        {/* <h6>Picture of Look goes here</h6> */}
-        <SlideShow slides={images}/>
+        <SlideShow slides={Images}/>
       </div>
       <div className={styles.midsection}>
         <div className={styles.lookInfoContainer}>
-          <h6>HAIRSTYLES/HEAD PARTS</h6>
-          <BreakdownPanel/>
-          <h6>BODY PAINT</h6>
-          <BreakdownPanel/>
-          <BreakdownPanel/>
-          <BreakdownPanel/>
-          <h6>LAYERS</h6>
-          <BreakdownPanel/>
-          <BreakdownPanel/>
-          <BreakdownPanel/>
+          <h6>Description</h6>
+          <BreakdownPanel desc={Description}/>
         </div>
         <div className={styles.rightSideContainer}>
-
+          <div>{Status}</div>
+          {Languages.map((item) => {
+              return(<div>{item}</div>)
+            })}
         </div>
       </div>
     </div>

@@ -4,31 +4,26 @@ import SidePanel from '../components/SidePanel';
 import LookBreakdown from '../components/LookBreakdown';
 import styles from './CSS/Looksbook.module.css'
 import ScrollToTop from '../ScrollToTop';
+import projects from '../projects.json'
+import { useLocation, Navigate } from 'react-router-dom'
 
 function Looksbook() {
+  const location = useLocation();
+  
+  // Add safety check for state
+  if (!location.state || !location.state.info) {
+    return <Navigate to="/" replace />;  // Redirect to home if no data
+  }
+
+  const { info } = location.state;
+  
   return (
     <div className="App">
       <Navbar/>
-      {/* <header className="App-header">
-        <div className="banner">
-            <div className="banner_content">
-                <div>
-                    Display the chosen look
-                </div>
-                <div>
-                    Text
-                </div>
-            </div>
-        </div>
-      </header> */}
       <main className={styles.main_main}>
         <div className={styles.main_alt}>
-          <LookBreakdown/>
+          <LookBreakdown info={info}/>
         </div>
-        {/* <div className={styles.side}>
-          <SidePanel/>
-        </div> */}
-        {/* <PageThingy/> */}
       </main>
       <ScrollToTop/>
     </div>

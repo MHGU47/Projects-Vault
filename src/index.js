@@ -11,16 +11,15 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <React.StrictMode>
-    <BrowserRouter>
+  <React.StrictMode>
+    <BrowserRouter basename="/Projects-Vault">
       <Routes>
-          <Route path="/" element={<Home/>}/>
-          <Route path="/Looksbook" element={<Looksbook/>}/>
-          <Route path="/Library" element={<Library/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Looksbook" element={<Looksbook/>}/>
+        <Route path="/Library" element={<Library/>}/>
       </Routes>
     </BrowserRouter>
-    // {/* <App/> */}
-  // </React.StrictMode>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

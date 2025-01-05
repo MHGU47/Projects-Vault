@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import styles from './CSS/SlideShow.module.css'
 import classNames from 'classnames';
-import { ArrowLeftO, ArrowRightO } from 'css.gg';
+//import { ArrowLeftO, ArrowRightO } from 'css.gg';
 import circle from '../icons/circle-solid.svg'
+import { projectImages } from '../images';
 
 
 const SlideShow = ({ slides }) => {
@@ -37,15 +38,16 @@ const SlideShow = ({ slides }) => {
 
   return (
     <div className={styles.slideshow_container}>
-      <div className={classNames(styles.navbtn, styles.left)} onClick={goToPrevSlide}>
-        <ArrowLeftO className={styles.icon}/>
+      <div className={classNames(styles.navbtn, styles.left)} onClick={goToPrevSlide}
+      onMouseEnter={() => setHideBubbles("")}
+      onMouseLeave={() => setHideBubbles(styles.hidden)}>
+        <div className={styles.icon}/>
       </div>
       {slides.map((slide, index) => (
-        // <div className={classNames(styles.slide, `${index === currentIndex ? styles.active : ''}`)}
         <div className={classNames(styles.slide, `${index === currentIndex ? styles.active : ''}`)}
           onMouseEnter={() => setHideBubbles("")}
           onMouseLeave={() => setHideBubbles(styles.hidden)}
-          key={index} style={{ backgroundImage: `url(${slide})`}}>
+          key={index} style={{ backgroundImage: `url(${projectImages[slide]})` }}>
 
           <div className={classNames(hideBubbles, styles.bubbles_container)}>
             {slides.map((key, index) => (
@@ -55,8 +57,10 @@ const SlideShow = ({ slides }) => {
           </div>
         </div>
       ))}
-      <div className={classNames(styles.navbtn, styles.right)} onClick={goToNextSlide}>
-        <ArrowRightO className={styles.icon}/>
+      <div className={classNames(styles.navbtn, styles.right)} onClick={goToNextSlide}
+      onMouseEnter={() => setHideBubbles("")}
+      onMouseLeave={() => setHideBubbles(styles.hidden)}>
+        <div className={styles.icon}/>
       </div>
     </div>
   );
