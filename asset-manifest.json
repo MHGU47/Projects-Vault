@@ -1,21 +1,27 @@
 {
   "files": {
-    "main.css": "/Projects-Vault/static/css/main.59d8657f.css",
-    "main.js": "/Projects-Vault/static/js/main.8426a36e.js",
+    "main.css": "/Projects-Vault/static/css/main.452e0ec6.css",
+    "main.js": "/Projects-Vault/static/js/main.cca4b59d.js",
     "static/js/488.fbe535e1.chunk.js": "/Projects-Vault/static/js/488.fbe535e1.chunk.js",
     "static/media/PSO2_NGS_Banner_1.jpeg": "/Projects-Vault/static/media/PSO2_NGS_Banner_1.87351c75c2cc206a8a95.jpeg",
+    "static/media/MHGU Damage Calculator_3.jpeg": "/Projects-Vault/static/media/MHGU Damage Calculator_3.ccb51e9ca23250aa39d2.jpeg",
+    "static/media/MHGU Damage Calculator_2.jpeg": "/Projects-Vault/static/media/MHGU Damage Calculator_2.3a68aa3e1bcb69de2972.jpeg",
+    "static/media/MHGU Damage Calculator_6.jpeg": "/Projects-Vault/static/media/MHGU Damage Calculator_6.50fd3e57ac09699c0e11.jpeg",
+    "static/media/MHGU Damage Calculator_4.jpeg": "/Projects-Vault/static/media/MHGU Damage Calculator_4.47702b99dfde5eb258f8.jpeg",
+    "static/media/MHGU Damage Calculator_1.jpeg": "/Projects-Vault/static/media/MHGU Damage Calculator_1.acefdcdabcef7cb7a24a.jpeg",
+    "static/media/MHGU Damage Calculator_5.jpeg": "/Projects-Vault/static/media/MHGU Damage Calculator_5.a1ef8a43adb7e5c1ca56.jpeg",
     "static/media/ngs_arks_logo.jpg": "/Projects-Vault/static/media/ngs_arks_logo.08bb06426f6063863568.jpg",
     "static/media/placeholder.png": "/Projects-Vault/static/media/placeholder.2328b205a26f65889b62.png",
     "static/media/ngs_arks_logo.png": "/Projects-Vault/static/media/ngs_arks_logo.ac6fcaef5ccbd4f44b10.png",
     "index.html": "/Projects-Vault/index.html",
     "static/media/menu.svg": "/Projects-Vault/static/media/menu.69c40d68fd38a325624fee8c84e0685d.svg",
     "static/media/circle-solid.svg": "/Projects-Vault/static/media/circle-solid.7ff39ca7e55859c787fa24e2b0c6fbb9.svg",
-    "main.59d8657f.css.map": "/Projects-Vault/static/css/main.59d8657f.css.map",
-    "main.8426a36e.js.map": "/Projects-Vault/static/js/main.8426a36e.js.map",
+    "main.452e0ec6.css.map": "/Projects-Vault/static/css/main.452e0ec6.css.map",
+    "main.cca4b59d.js.map": "/Projects-Vault/static/js/main.cca4b59d.js.map",
     "488.fbe535e1.chunk.js.map": "/Projects-Vault/static/js/488.fbe535e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59d8657f.css",
-    "static/js/main.8426a36e.js"
+    "static/css/main.452e0ec6.css",
+    "static/js/main.cca4b59d.js"
   ]
 }
