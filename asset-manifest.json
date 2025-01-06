@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Projects-Vault/static/css/main.452e0ec6.css",
-    "main.js": "/Projects-Vault/static/js/main.cca4b59d.js",
+    "main.js": "/Projects-Vault/static/js/main.1c9291a1.js",
     "static/js/488.fbe535e1.chunk.js": "/Projects-Vault/static/js/488.fbe535e1.chunk.js",
     "static/media/PSO2_NGS_Banner_1.jpeg": "/Projects-Vault/static/media/PSO2_NGS_Banner_1.87351c75c2cc206a8a95.jpeg",
     "static/media/MHGU Damage Calculator_3.jpeg": "/Projects-Vault/static/media/MHGU Damage Calculator_3.ccb51e9ca23250aa39d2.jpeg",
@@ -17,11 +17,11 @@
     "static/media/menu.svg": "/Projects-Vault/static/media/menu.69c40d68fd38a325624fee8c84e0685d.svg",
     "static/media/circle-solid.svg": "/Projects-Vault/static/media/circle-solid.7ff39ca7e55859c787fa24e2b0c6fbb9.svg",
     "main.452e0ec6.css.map": "/Projects-Vault/static/css/main.452e0ec6.css.map",
-    "main.cca4b59d.js.map": "/Projects-Vault/static/js/main.cca4b59d.js.map",
+    "main.1c9291a1.js.map": "/Projects-Vault/static/js/main.1c9291a1.js.map",
     "488.fbe535e1.chunk.js.map": "/Projects-Vault/static/js/488.fbe535e1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.452e0ec6.css",
-    "static/js/main.cca4b59d.js"
+    "static/js/main.1c9291a1.js"
   ]
 }
