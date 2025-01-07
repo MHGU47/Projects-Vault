@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Projects-Vault/static/css/main.5415ae3a.css",
-    "main.js": "/Projects-Vault/static/js/main.84e2a597.js",
+    "main.css": "/Projects-Vault/static/css/main.0fb95ba8.css",
+    "main.js": "/Projects-Vault/static/js/main.a569e56b.js",
     "static/js/488.fbe535e1.chunk.js": "/Projects-Vault/static/js/488.fbe535e1.chunk.js",
     "static/media/Digimon TCG Deckbuilder_1.jpg": "/Projects-Vault/static/media/Digimon TCG Deckbuilder_1.cfd4f20d6e6bbf1440f8.jpg",
     "static/media/Digimon TCG Deckbuilder_2.jpg": "/Projects-Vault/static/media/Digimon TCG Deckbuilder_2.01a71e5e88fdce6de071.jpg",
@@ -21,12 +21,12 @@
     "index.html": "/Projects-Vault/index.html",
     "static/media/menu.svg": "/Projects-Vault/static/media/menu.69c40d68fd38a325624fee8c84e0685d.svg",
     "static/media/circle-solid.svg": "/Projects-Vault/static/media/circle-solid.7ff39ca7e55859c787fa24e2b0c6fbb9.svg",
-    "main.5415ae3a.css.map": "/Projects-Vault/static/css/main.5415ae3a.css.map",
-    "main.84e2a597.js.map": "/Projects-Vault/static/js/main.84e2a597.js.map",
+    "main.0fb95ba8.css.map": "/Projects-Vault/static/css/main.0fb95ba8.css.map",
+    "main.a569e56b.js.map": "/Projects-Vault/static/js/main.a569e56b.js.map",
     "488.fbe535e1.chunk.js.map": "/Projects-Vault/static/js/488.fbe535e1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5415ae3a.css",
-    "static/js/main.84e2a597.js"
+    "static/css/main.0fb95ba8.css",
+    "static/js/main.a569e56b.js"
   ]
 }
