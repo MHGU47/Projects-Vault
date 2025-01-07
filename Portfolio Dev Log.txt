@@ -102,6 +102,9 @@ that display the looks.
  If I do need it, I can always grab it from the old project
 -Changed 'LookCard.jsx' constructor; this is now using information from 'projects.json'.
 
+07/01/25
+-Started making changes based on feedback from Aaron
+
 #TODO#
 -Add align-text: center to everything instead of .App. This messes with the positioning of ::after tags.
  This can be fixed by fixing the positions to absolute and assigning a left/right but this might lead to

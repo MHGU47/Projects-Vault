@@ -1,7 +1,14 @@
 :root{
-  --primary-colour: #000D0B;
+  /* --primary-colour: #000D0B;
   --secondary-colour: #1C3738;
-  --accent-colour: #32D0EC;
+  --accent-colour: #32D0EC; 
+  --text-colour: #FFFFFF;*/
+
+  --primary-colour: #FFFFFF;
+  --accent-colour: #1C3738;
+  --secondary-colour: #32D0EC;
+
+  --text-colour: #000000;
 }
 
 .App {
@@ -28,7 +35,7 @@
   align-items: center;
   justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--text-colour);
 }
 
 .banner {
@@ -69,7 +76,8 @@
 }
 
 .main_main {
-  width: calc(70% - 20px);
+  /* width: calc(70% - 20px); */
+  width: calc(100% - 20px);
   height: 100%;
   padding: 10px;
   background-color: var(--primary-colour);

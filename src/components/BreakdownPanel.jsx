@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './CSS/BreakdownPanel.module.css'
 
 function BreakdownPanel({desc}) {
-  console.log("Breakdown Panel" + desc)
   return (
     <div className={styles.itemComponent}>
       <div className={styles.itemBox}>

@@ -18,10 +18,13 @@ const Navbar = () => {
 
   return (
     <div className={styles.navBar}>
+      <div className={styles.title}>
+        Marcus
+      </div>
       <div className={classNames(styles.buttons, divClass)}>
-        <Link to="/">Home</Link>
-        <Link to="/Looksbook">Looksbook</Link>
-        <Link to="/Library" className="btn-end">Library</Link>
+        <Link to="/">Home</Link>      
+        <Link to="/Library">Projects</Link>
+        <Link to="/Looksbook" className="btn-end">About</Link>
         <a className={classNames(styles.icon)} onClick={changeClass}>
           <img src={icon} alt="menu"/>
         </a>

@@ -25,7 +25,7 @@
     
     height: 100%;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
     z-index: 2;
     display: row;
     position: fixed;
@@ -36,8 +36,15 @@
   }
 }
 
+.title {
+  padding-left: 5%;
+  font-size: 25px;
+  color: var(--text-colour);
+}
+
 
 .buttons {
+  padding-right: 5%;
   overflow: hidden;
 
   background-color: var(--primary-colour);
@@ -46,6 +53,7 @@
   /* display: flex; */
   height: 100%;
   /* align-items: center; */
+  /* justify-content: right; */
 }
 
 .buttons a {
@@ -54,7 +62,7 @@
   padding: 14px 16px;
   font-size: 17px;
 
-  color: #FFFFFF;
+  color: var(--text-colour);
   /* padding-left: 5px;
   padding-right: 5px; */
   background-color: var(--primary-colour);

@@ -12,6 +12,10 @@ const SlideShow = ({ slides }) => {
   const [hideBubbles, setHideBubbles] = useState(styles.hidden);
   const [active, setActive] = useState("")
 
+  // Add debug logs
+  console.log('Available project images:', projectImages);
+  console.log('Current slide:', slides[currentIndex]);
+
   const goToNextSlide = () => {
     setCurrentIndex((currentIndex + 1) % slides.length);
     // bubbleFlicker();
@@ -35,31 +39,41 @@ const SlideShow = ({ slides }) => {
   function goToSlide(slide){
     setCurrentIndex(slide)
   }
-
+  
   return (
     <div className={styles.slideshow_container}>
       <div className={classNames(styles.navbtn, styles.left)} onClick={goToPrevSlide}
-      onMouseEnter={() => setHideBubbles("")}
-      onMouseLeave={() => setHideBubbles(styles.hidden)}>
+        onMouseEnter={() => setHideBubbles("")}
+        onMouseLeave={() => setHideBubbles(styles.hidden)}>
         <div className={styles.icon}/>
       </div>
       {slides.map((slide, index) => (
-        <div className={classNames(styles.slide, `${index === currentIndex ? styles.active : ''}`)}
+        <div 
+          className={classNames(styles.slide, `${index === currentIndex ? styles.active : ''}`)}
           onMouseEnter={() => setHideBubbles("")}
           onMouseLeave={() => setHideBubbles(styles.hidden)}
-          key={index} style={{ backgroundImage: `url(${projectImages[slide]})` }}>
-
+          key={index} 
+        >
+          <img 
+            src={projectImages[slide] || projectImages['placeholder']}
+            alt={`Slide ${index + 1}`}
+            className={styles.slideImage}
+          />
           <div className={classNames(hideBubbles, styles.bubbles_container)}>
-            {slides.map((key, index) => (
-              <img className={classNames(styles.bubble, `${index === currentIndex ? styles.active_ : ''}`)}
-              key={key} src={circle}/>
+            {slides.map((_, index) => (
+              <img 
+                className={classNames(styles.bubble, `${index === currentIndex ? styles.active_ : ''}`)}
+                key={index} 
+                src={circle}
+                alt="navigation dot"
+              />
             ))}
           </div>
         </div>
       ))}
       <div className={classNames(styles.navbtn, styles.right)} onClick={goToNextSlide}
-      onMouseEnter={() => setHideBubbles("")}
-      onMouseLeave={() => setHideBubbles(styles.hidden)}>
+        onMouseEnter={() => setHideBubbles("")}
+        onMouseLeave={() => setHideBubbles(styles.hidden)}>
         <div className={styles.icon}/>
       </div>
     </div>

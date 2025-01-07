@@ -15,23 +15,20 @@ function Home() {
                 {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <div className="banner">
                     <div className="banner_content">
-                        <div>
+                        {/* <div>
                             NGS Looksbook Collection (Totally not an Eorzea Collection clone...)
-                        </div>
-                        <div>
-                            Text
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </header>
             <main className="main">
                 <div className="main_main">
-                    <Hero/>
+                    {/* <Hero/> */}
                     <GlamSegment main={true}/>
                 </div>
-                <div className="main_side">
+                {/* <div className="main_side">
                     <SidePanel/>
-                </div>
+                </div> */}
             </main>
             {/* <Footer/> */}
             <ScrollToTop/>

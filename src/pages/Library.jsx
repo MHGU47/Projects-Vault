@@ -17,12 +17,12 @@ function Library() {
             {/* <img src={logo} className="App-logo" alt="logo" /> */}
             <div className="banner">
                 <div className="banner_content">
-                    <div>
+                    {/* <div>
                         Display all the looks uploaded by users
                     </div>
                     <div>
                         Text
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>
@@ -31,7 +31,7 @@ function Library() {
                 <SearchSidePanel/>
             </div>
             <div className={styles.main}>
-                <SortBar/>
+                {/* <SortBar/> */}
                 <GlamSegment/>
             </div>
         

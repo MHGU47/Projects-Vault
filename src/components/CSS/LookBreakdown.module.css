@@ -1,7 +1,7 @@
 .title{
   min-height: 7vh;
   border-left: 2px solid var(--secondary-colour);
-  color: var(--accent-colour);
+  color: var(--text-colour);
   padding-left: 1vh;
   vertical-align: center;
   line-height: 7vh;
@@ -25,7 +25,7 @@
 
   border: 5px solid var(--secondary-colour);
   border-radius: 10px;
-  background-color: var(--secondary-colour);
+  /* background-color: var(--secondary-colour); */
   margin: 5px;
   position: relative;
 }

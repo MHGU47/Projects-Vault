@@ -1,12 +1,7 @@
-:root{
-  --primary-colour: #000D0B;
-  --secondary-colour: #1C3738;
-  --accent-colour: #32D0EC;
-}
-
 .main {
-  width: calc(70% - 20px);
-  right: 0;
+  /* width: calc(70% - 20px); */
+  width: calc(100% - 20px);
+  /* right: 0; */
   margin: 10px;
   height: inherit;
 }
