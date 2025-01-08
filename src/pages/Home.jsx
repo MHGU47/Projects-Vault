@@ -10,28 +10,24 @@ import ScrollToTop from '../ScrollToTop';
 function Home() {
     return (
         <div className="App">
-            <Navbar/>
+            {/* <Navbar/>
             <header className="App-header">
-                {/* <img src={logo} className="App-logo" alt="logo" /> */}
                 <div className="banner">
                     <div className="banner_content">
-                        {/* <div>
-                            NGS Looksbook Collection (Totally not an Eorzea Collection clone...)
-                        </div> */}
                     </div>
                 </div>
             </header>
             <main className="main">
                 <div className="main_main">
-                    {/* <Hero/> */}
+                    
                     <GlamSegment main={true}/>
                 </div>
-                {/* <div className="main_side">
-                    <SidePanel/>
-                </div> */}
             </main>
-            {/* <Footer/> */}
-            <ScrollToTop/>
+            <ScrollToTop/> */}
+            <div className="bodyBox">
+              <div className='loader'/>
+            </div>
+            <div className="text">Under Construction</div>
         </div>
     );
 }

@@ -28,7 +28,7 @@ function Library() {
         </header>
         <main className="main">
             <div className={styles.side}>
-                <SearchSidePanel/>
+                
             </div>
             <div className={styles.main}>
                 {/* <SortBar/> */}
